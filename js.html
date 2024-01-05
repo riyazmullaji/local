@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	</title>
+	
+</head>
+<body>
+     <p id = "output"> boobies </p>
+     <input id = "boob_size">
+     <button onclick="press_boobs()">press</button>
+     <script type="text/javascript">
+     	function press_boobs()
+     	{
+     		boob_size = document.getElementById("boob_size").value;
+     		httprequest = new XMLHttpRequest();
+     		httprequest.open("GET", "https://reqres.in/api/users/+boob_size");
+     		httprequest.send();
+     		httprequest.onreadystatechange = function
+     		{
+     			if (this.readyState == 4 && this.status == 200) {
+     				user_data = JSON.parse(this.responseText);
+     				document.getElementById("output").innerHTML = user_data.data.first_name
+     			}
+     		}
+     }
+     </script>
+</body>
+</html>
