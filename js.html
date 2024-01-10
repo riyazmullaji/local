@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+</head>
+<body>
+    <p id = "output">DEFAULT TEXT </p>
+    <input id = "user_number">
+    <button onclick="update_user()">submit</button>
+
+<script>
+      function update_user()
+      {
+        user_number = document.getElementById("user_number").value;
+        httpRequest = new XMLHttpRequest();
+        httpRequest.open("GET", "https://reqres.in/api/users" + user_number);
+        httpRequest.send();
+        httpRequest.onreadystatechange = function(){
+            if(this.readyState == 4 && ths.status == 200){
+                user_data = JSON.parse(this.responseText);
+                document.getElementById("output").innerHTML = user_data.data.first_name;
+            }
+        }
+      }
+</script>
+</body>
+</html>
