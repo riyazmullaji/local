@@ -1,0 +1,17 @@
+[ 2024-11-20 17:32:31,413 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 17:32:31,803 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-20 17:32:31,803 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-20 17:32:32,586 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA (Update beneficiary selection and unstarted count)']
+[ 2024-11-20 17:32:32,588 ] 16 __main__ - INFO - Attempting to update application status for UserID: 45127da7-3e5e-4ba1-bf26-89b466f2f627, District: BENGALURU_URBAN.
+[ 2024-11-20 17:32:32,591 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 17:32:32,591 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 17:32:32,591 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 17:32:33,245 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 17:32:33,972 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-20 17:32:33,972 ] 65 utils.database - INFO - Query executed successfully (INSERT/UPDATE/DELETE).
+[ 2024-11-20 17:32:33,972 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 17:32:33,986 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-20 17:32:34,053 ] 20 __main__ - INFO - Application status successfully updated for UserID: 45127da7-3e5e-4ba1-bf26-89b466f2f627.
+[ 2024-11-20 17:32:34,053 ] 23 __main__ - INFO - Attempting to update PMAY data for District: BENGALURU_URBAN.
+[ 2024-11-20 17:32:34,053 ] 68 utils.database - ERROR - Error executing query: Query 'UPDATE_PMAY_DATA' not found in loaded queries.
+[ 2024-11-20 17:32:34,053 ] 30 __main__ - ERROR - Custom exception occurred: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 53 - Error executing query

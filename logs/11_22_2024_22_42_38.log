@@ -1,0 +1,10 @@
+[ 2024-11-22 22:42:38,182 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:42:38,183 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_DATA', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:42:38,186 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:42:38,186 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:42:38,186 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:42:38,965 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:42:38,965 ] 68 utils.database - ERROR - Error executing query: not all arguments converted during string formatting
+[ 2024-11-22 22:42:38,965 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:42:39,287 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:42:39,321 ] 27 __main__ - ERROR - Error fetching district data: Error executing query | Details: not all arguments converted during string formatting

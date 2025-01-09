@@ -1,0 +1,24 @@
+[ 2024-11-20 17:41:19,940 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 17:41:20,277 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-20 17:41:20,277 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-20 17:41:20,972 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA']
+[ 2024-11-20 17:41:20,972 ] 16 __main__ - INFO - Attempting to update application status for UserID: 45127da7-3e5e-4ba1-bf26-89b466f2f627, District: BENGALURU_URBAN.
+[ 2024-11-20 17:41:20,980 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 17:41:20,981 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 17:41:20,981 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 17:41:21,736 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 17:41:22,528 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-20 17:41:22,528 ] 65 utils.database - INFO - Query executed successfully (INSERT/UPDATE/DELETE).
+[ 2024-11-20 17:41:22,528 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 17:41:22,558 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-20 17:41:22,611 ] 20 __main__ - INFO - Application status successfully updated for UserID: 45127da7-3e5e-4ba1-bf26-89b466f2f627.
+[ 2024-11-20 17:41:22,611 ] 23 __main__ - INFO - Attempting to update PMAY data for District: BENGALURU_URBAN.
+[ 2024-11-20 17:41:22,613 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 17:41:22,614 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 17:41:22,614 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 17:41:22,935 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 17:41:23,423 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-20 17:41:23,423 ] 65 utils.database - INFO - Query executed successfully (INSERT/UPDATE/DELETE).
+[ 2024-11-20 17:41:23,423 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 17:41:23,470 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-20 17:41:23,504 ] 27 __main__ - INFO - PMAY data successfully updated for District: BENGALURU_URBAN.

@@ -1,0 +1,11 @@
+[ 2024-11-19 23:29:15,721 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-19 23:29:21,038 ] 11 __main__ - INFO - Attempting to fetch User ID for Name: John Doe and Aadhaar: 123456789012
+[ 2024-11-19 23:29:21,052 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-19 23:29:21,053 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-19 23:29:21,053 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-19 23:29:22,105 ] 24 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-19 23:29:22,170 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 0
+[ 2024-11-19 23:29:22,171 ] 39 utils.database - INFO - Query executed successfully: []
+[ 2024-11-19 23:29:22,171 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-19 23:29:22,198 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-19 23:29:22,222 ] 33 __main__ - ERROR - No user found with the provided Name and Aadhaar Number.

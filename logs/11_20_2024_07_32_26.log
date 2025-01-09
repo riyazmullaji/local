@@ -1,0 +1,4 @@
+[ 2024-11-20 07:32:26,933 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 07:32:27,247 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-20 07:32:27,247 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-20 07:32:27,943 ] 24 utils.database - ERROR - Error loading queries from queries.sql: [Errno 2] No such file or directory: 'queries.sql'

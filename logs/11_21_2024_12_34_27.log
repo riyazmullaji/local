@@ -1,0 +1,72 @@
+[ 2024-11-21 12:34:27,111 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-21 12:34:27,111 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL']
+[ 2024-11-21 12:34:27,395 ] 68 utils.database - ERROR - Error executing query: Query 'FETCH_USERS_WITH_COMPLETEDVERF' not found in loaded queries.
+[ 2024-11-21 12:34:27,395 ] 57 __main__ - ERROR - Error fetching users with completed verification: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 53 - Error executing query
+[ 2024-11-21 12:35:21,976 ] 68 utils.database - ERROR - Error executing query: Query 'FETCH_USERS_WITH_COMPLETEDVERF' not found in loaded queries.
+[ 2024-11-21 12:35:21,977 ] 57 __main__ - ERROR - Error fetching users with completed verification: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 53 - Error executing query
+[ 2024-11-21 12:38:09,934 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-21 12:38:09,934 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF']
+[ 2024-11-21 12:38:43,526 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-21 12:38:43,539 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF']
+[ 2024-11-21 12:38:43,544 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:38:43,545 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:38:43,545 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:38:44,265 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:38:44,917 ] 68 utils.database - ERROR - Error executing query: 002003 (42S02): 01b883ac-0000-ccb8-0008-4ae600017512: SQL compilation error:
+Object 'USERS' does not exist or not authorized.
+[ 2024-11-21 12:38:44,917 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:38:44,948 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-21 12:38:44,980 ] 60 __main__ - ERROR - Error fetching users with completed verification: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 58 - Error executing query
+[ 2024-11-21 12:40:35,097 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:40:35,098 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:40:35,098 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:40:35,499 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:40:35,558 ] 68 utils.database - ERROR - Error executing query: 002003 (42S02): 01b883ae-0000-ccf4-0008-4ae6000164de: SQL compilation error:
+Object 'USERS' does not exist or not authorized.
+[ 2024-11-21 12:40:35,558 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:40:35,575 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-21 12:40:35,599 ] 60 __main__ - ERROR - Error fetching users with completed verification: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 58 - Error executing query
+[ 2024-11-21 12:42:21,337 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:42:21,338 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:42:21,338 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:42:21,744 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:42:21,831 ] 68 utils.database - ERROR - Error executing query: 002003 (42S02): 01b883b0-0000-ccf4-0008-4ae6000164f2: SQL compilation error:
+Object 'USERS' does not exist or not authorized.
+[ 2024-11-21 12:42:21,831 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:42:21,856 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-21 12:42:21,896 ] 60 __main__ - ERROR - Error fetching users with completed verification: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 58 - Error executing query
+[ 2024-11-21 12:43:32,432 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:43:32,432 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:43:32,433 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:43:33,015 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:43:33,078 ] 68 utils.database - ERROR - Error executing query: 002003 (42S02): 01b883b1-0000-cd16-0008-4ae600018066: SQL compilation error:
+Object 'USERS' does not exist or not authorized.
+[ 2024-11-21 12:43:33,078 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:43:33,098 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-21 12:43:33,138 ] 60 __main__ - ERROR - Error fetching users with completed verification: Error occurred in script: C:\Users\riyaz\OneDrive\Desktop\PMAY\utils\database.py at line 58 - Error executing query
+[ 2024-11-21 12:45:20,531 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-21 12:45:20,532 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF']
+[ 2024-11-21 12:45:20,533 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:45:20,534 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:45:20,534 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:45:21,156 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:45:21,461 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 0
+[ 2024-11-21 12:45:21,462 ] 61 utils.database - INFO - Query executed successfully: []
+[ 2024-11-21 12:45:21,462 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:45:21,480 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-21 12:46:04,072 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:46:04,072 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:46:04,072 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:46:04,502 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:46:04,550 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 0
+[ 2024-11-21 12:46:04,550 ] 61 utils.database - INFO - Query executed successfully: []
+[ 2024-11-21 12:46:04,551 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:46:04,572 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-21 12:46:53,117 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-21 12:46:53,117 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-21 12:46:53,118 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-21 12:46:53,784 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-21 12:46:53,826 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 0
+[ 2024-11-21 12:46:53,826 ] 61 utils.database - INFO - Query executed successfully: []
+[ 2024-11-21 12:46:53,826 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-21 12:46:53,847 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session

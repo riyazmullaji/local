@@ -1,0 +1,858 @@
+[ 2024-11-22 21:50:12,067 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 21:50:12,805 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-22 21:50:12,805 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-22 21:50:14,318 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_COMPARISON', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 21:50:14,767 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:14,767 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:14,768 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:15,659 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:16,233 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:16,235 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 21:50:16,235 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:16,264 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:16,310 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:16,311 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:16,311 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:17,090 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:17,353 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:17,354 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 21:50:17,355 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:17,378 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:17,497 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:17,497 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:17,497 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:18,227 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:18,325 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:18,326 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 21:50:18,326 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:18,425 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:18,465 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:18,465 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:18,465 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:19,178 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:19,285 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:19,285 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 21:50:19,285 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:19,307 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:19,373 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 21:50:19,377 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:19,377 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:19,379 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:20,126 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:20,225 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:50:20,232 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 21:50:20,232 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:20,254 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:20,401 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 21:50:20,402 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:20,403 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:20,403 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:21,103 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:21,184 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:50:21,184 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 21:50:21,184 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:21,208 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:21,265 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:21,265 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:21,265 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:22,006 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:22,082 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b74-0000-ce38-0008-4ae6000225d6: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:50:22,083 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:22,160 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:22,245 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b74-0000-ce38-0008-4ae6000225d6: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:50:27,200 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:27,200 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:27,201 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:27,951 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:28,002 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:28,003 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 21:50:28,003 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:28,027 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:28,104 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:28,104 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:28,104 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:28,744 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:28,821 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:28,822 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 21:50:28,822 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:28,845 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:28,905 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:28,905 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:28,905 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:29,789 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:29,891 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:29,892 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 21:50:29,892 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:30,017 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:30,045 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:30,045 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:30,045 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:30,745 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:30,884 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:50:30,885 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 21:50:30,885 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:30,907 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:30,974 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 21:50:30,977 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:30,978 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:30,978 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:31,743 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:31,815 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:50:31,818 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 21:50:31,819 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:31,841 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:31,885 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 21:50:31,887 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:31,888 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:31,888 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:32,546 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:32,624 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:50:32,624 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 21:50:32,625 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:32,687 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:32,782 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:50:32,783 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:50:32,783 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:50:33,463 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:50:33,511 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b74-0000-cdc2-0008-4ae6000219d2: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:50:33,512 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:50:33,536 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:50:33,595 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b74-0000-cdc2-0008-4ae6000219d2: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:59:28,510 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 21:59:28,515 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_COMPARISON', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 21:59:28,526 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:28,527 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:28,527 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:29,009 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:29,082 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:29,082 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 21:59:29,082 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:29,103 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:29,133 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:29,133 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:29,133 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:29,506 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:29,563 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:29,563 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 21:59:29,563 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:29,658 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:29,685 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:29,685 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:29,685 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:30,140 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:30,225 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:30,225 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 21:59:30,225 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:30,248 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:30,303 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:30,303 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:30,303 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:30,652 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:30,729 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:30,730 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 21:59:30,730 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:30,797 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:30,883 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 21:59:30,885 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:30,885 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:30,885 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:31,641 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:31,714 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:59:31,717 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 21:59:31,717 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:31,742 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:32,040 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 21:59:32,042 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:32,042 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:32,042 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:32,786 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:32,861 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:59:32,862 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 21:59:32,863 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:32,936 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:33,038 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:33,038 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:33,038 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:33,857 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:33,926 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b7d-0000-ce38-0008-4ae600022602: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:59:33,926 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:33,952 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:34,007 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b7d-0000-ce38-0008-4ae600022602: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:59:39,152 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:39,153 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:39,153 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:39,962 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:40,092 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:40,093 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 21:59:40,093 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:40,120 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:40,195 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:40,196 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:40,196 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:41,005 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:41,083 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:41,084 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 21:59:41,084 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:41,108 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:41,165 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:41,165 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:41,166 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:41,820 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:41,902 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:41,903 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 21:59:41,903 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:41,983 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:42,097 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:42,098 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:42,098 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:42,998 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:43,060 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 21:59:43,060 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 21:59:43,061 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:43,086 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:43,158 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 21:59:43,163 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:43,163 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:43,163 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:43,798 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:43,875 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:59:43,876 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 21:59:43,876 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:43,907 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:43,967 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 21:59:43,968 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:43,968 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:43,968 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:44,616 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:44,722 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 21:59:44,722 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 21:59:44,722 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:44,788 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:44,873 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 21:59:44,873 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 21:59:44,873 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 21:59:45,698 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 21:59:45,770 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b7d-0000-cdc2-0008-4ae6000219de: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 21:59:45,770 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 21:59:45,885 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 21:59:45,921 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b7d-0000-cdc2-0008-4ae6000219de: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:02:24,138 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:02:24,148 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_COMPARISON', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:02:24,155 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:24,155 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:24,155 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:24,637 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:24,701 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:02:24,702 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:02:24,702 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:24,806 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:24,834 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:24,834 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:24,834 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:25,278 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:25,360 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:02:25,360 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:02:25,360 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:25,442 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:25,562 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:25,563 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:25,563 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:26,280 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:26,347 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:02:26,347 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:02:26,347 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:26,370 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:26,431 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:26,431 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:26,431 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:27,192 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:27,269 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:02:27,269 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:02:27,269 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:27,291 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:27,341 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:02:27,342 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:27,343 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:27,343 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:28,128 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:28,240 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:02:28,241 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:02:28,241 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:28,323 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:28,413 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:02:28,416 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:28,416 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:28,416 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:29,214 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:29,274 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:02:29,274 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:02:29,275 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:29,310 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:29,412 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:02:29,412 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:02:29,413 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:02:30,146 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:02:30,217 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b80-0000-cdc2-0008-4ae6000219ea: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:02:30,217 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:02:30,241 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:02:30,298 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b80-0000-cdc2-0008-4ae6000219ea: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:04:06,029 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:04:06,034 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_COMPARISON', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:04:06,044 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:06,046 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:06,047 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:06,733 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:06,902 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:06,902 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:04:06,902 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:07,004 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:07,050 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:07,051 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:07,051 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:07,761 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:07,913 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:07,914 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:04:07,914 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:07,937 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:07,985 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:07,986 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:07,987 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:08,584 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:08,639 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:08,640 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:04:08,641 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:08,721 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:08,807 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:08,807 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:08,808 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:09,625 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:09,714 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:09,714 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:04:09,714 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:09,790 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:09,895 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:04:09,896 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:09,896 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:09,898 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:10,740 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:10,806 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:04:10,807 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:04:10,807 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:10,863 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:10,900 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:04:10,902 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:10,902 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:10,902 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:11,608 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:11,681 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:04:11,682 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:04:11,682 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:11,762 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:11,852 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:11,853 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:11,853 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:12,626 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:12,684 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b82-0000-ce38-0008-4ae600022632: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:04:12,684 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:12,726 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:12,794 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b82-0000-ce38-0008-4ae600022632: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:04:17,555 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:17,555 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:17,556 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:18,283 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:18,367 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:18,368 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:04:18,368 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:18,388 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:18,571 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:18,572 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:18,572 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:19,438 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:19,758 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:19,758 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:04:19,759 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:19,839 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:19,934 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:19,934 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:19,934 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:20,691 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:20,760 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:20,761 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:04:20,761 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:20,821 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:20,933 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:20,934 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:20,934 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:21,562 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:21,605 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:04:21,605 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:04:21,605 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:21,650 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:21,734 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:04:21,734 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:21,736 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:21,736 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:22,569 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:22,628 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:04:22,630 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:04:22,630 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:22,653 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:22,720 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:04:22,722 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:22,723 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:22,723 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:23,362 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:23,645 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:04:23,647 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:04:23,647 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:23,672 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:23,740 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:04:23,741 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:04:23,741 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:04:24,712 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:04:24,787 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b82-0000-ce38-0008-4ae600022646: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:04:24,787 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:04:24,865 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:04:24,957 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b82-0000-ce38-0008-4ae600022646: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:07:38,690 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:07:38,695 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_COMPARISON', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:07:38,713 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:38,713 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:38,713 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:39,726 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:39,808 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:39,809 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:07:39,809 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:39,837 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:39,882 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:39,883 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:39,883 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:40,453 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:40,561 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:40,562 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:07:40,562 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:40,625 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:40,658 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:40,659 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:40,659 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:41,784 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:41,849 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:41,849 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:07:41,850 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:41,901 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:41,966 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:41,967 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:41,967 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:42,717 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:42,793 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:42,793 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:07:42,794 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:42,870 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:42,902 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:07:42,904 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:42,904 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:42,904 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:43,620 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:43,798 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:07:43,799 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:07:43,799 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:43,822 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:43,877 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:07:43,881 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:43,882 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:43,882 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:44,597 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:44,683 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:07:44,684 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:07:44,684 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:44,774 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:44,848 ] 102 root - INFO - Executing comparison query for Bagalkot and Bagalkot
+[ 2024-11-22 22:07:44,850 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:44,851 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:44,851 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:45,585 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:45,668 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b85-0000-ce38-0008-4ae60002266e: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:07:45,668 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:45,688 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:45,763 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b85-0000-ce38-0008-4ae60002266e: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:07:49,794 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:49,795 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:49,795 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:50,572 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:50,632 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:50,634 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:07:50,634 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:50,714 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:50,825 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:50,825 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:50,825 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:51,787 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:51,884 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:51,884 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:07:51,885 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:51,907 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:51,970 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:51,970 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:51,971 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:52,736 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:52,854 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:52,854 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:07:52,855 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:52,877 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:52,948 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:52,949 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:52,949 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:53,639 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:53,732 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:07:53,733 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:07:53,733 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:53,762 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:53,851 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:07:53,855 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:53,856 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:53,857 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:54,679 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:54,745 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:07:54,747 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:07:54,747 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:54,932 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:54,971 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:07:54,972 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:54,973 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:54,973 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:55,659 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:55,730 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:07:55,731 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:07:55,731 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:55,826 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:55,858 ] 102 root - INFO - Executing comparison query for Bagalkot and Bidar
+[ 2024-11-22 22:07:55,860 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:07:55,861 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:07:55,861 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:07:56,966 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:07:57,053 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b85-0000-ce38-0008-4ae60002267a: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:07:57,053 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:07:57,130 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:07:57,301 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b85-0000-ce38-0008-4ae60002267a: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:11:35,096 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:11:35,102 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_COMPARISON', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:11:35,114 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:35,114 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:35,114 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:36,018 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:36,162 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:36,163 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:11:36,163 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:36,207 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:36,240 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:36,240 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:36,240 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:36,616 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:36,689 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:36,690 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:11:36,690 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:36,707 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:36,768 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:36,769 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:36,769 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:37,127 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:37,189 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:37,189 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:11:37,189 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:37,209 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:37,266 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:37,266 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:37,267 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:37,677 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:37,765 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:37,765 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:11:37,765 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:37,839 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:37,925 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:11:37,925 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:37,925 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:37,925 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:38,359 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:38,414 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:11:38,414 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:11:38,416 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:38,437 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:38,504 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:11:38,505 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:38,507 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:38,507 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:39,132 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:39,180 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:11:39,180 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:11:39,180 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:39,202 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:39,250 ] 102 root - INFO - Executing comparison query for Bagalkot and Bagalkot
+[ 2024-11-22 22:11:39,251 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:39,252 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:39,252 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:39,600 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:39,650 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b89-0000-ce38-0008-4ae60002268a: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:11:39,650 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:39,672 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:39,701 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b89-0000-ce38-0008-4ae60002268a: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:11:45,062 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:45,062 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:45,062 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:45,508 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:45,573 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:45,574 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:11:45,574 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:45,592 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:45,656 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:45,656 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:45,657 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:46,323 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:46,393 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:46,394 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:11:46,394 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:46,415 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:46,477 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:46,479 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:46,479 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:46,931 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:46,985 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:46,986 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:11:46,986 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:47,054 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:47,135 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:47,135 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:47,135 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:47,645 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:47,721 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:11:47,722 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:11:47,722 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:47,810 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:47,839 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:11:47,840 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:47,840 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:47,840 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:48,315 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:48,452 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:11:48,453 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:11:48,454 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:48,640 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:48,704 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:11:48,706 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:48,706 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:48,706 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:49,138 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:49,233 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:11:49,234 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:11:49,234 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:49,273 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:49,315 ] 102 root - INFO - Executing comparison query for Bidar and Bagalkot
+[ 2024-11-22 22:11:49,317 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:11:49,317 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:11:49,317 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:11:49,715 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:11:49,852 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b89-0000-cdc2-0008-4ae600021a4e: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:11:49,852 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:11:49,933 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:11:50,047 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Comparison: Error executing query | Details: 002049 (42601): 01b88b89-0000-cdc2-0008-4ae600021a4e: SQL compilation error: error line 8 at position 19
+Bind variable :district_1 not set.
+[ 2024-11-22 22:15:01,979 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:15:01,983 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_DATA', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:15:01,995 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:01,996 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:01,996 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:02,762 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:02,977 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:02,977 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:15:02,977 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:03,149 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:03,226 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:03,226 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:03,226 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:04,144 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:04,209 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:04,209 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:15:04,209 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:04,291 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:04,376 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:04,377 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:04,377 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:05,336 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:05,529 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:05,530 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:15:05,530 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:05,614 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:05,736 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:05,737 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:05,737 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:06,706 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:06,769 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:06,770 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:15:06,770 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:06,809 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:06,929 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:15:06,931 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:06,932 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:06,932 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:07,678 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:07,770 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:15:07,770 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:15:07,771 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:07,828 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:07,938 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:15:07,939 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:07,940 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:07,940 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:08,753 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:08,824 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:15:08,825 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:15:08,825 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:08,854 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:08,983 ] 100 root - INFO - Executing query for Bagalkot
+[ 2024-11-22 22:15:08,983 ] 106 root - INFO - Query Parameters: {'district': 'Bagalkot'}
+[ 2024-11-22 22:15:08,984 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:08,985 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:08,985 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:09,852 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:09,910 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b8d-0000-ce38-0008-4ae6000226ae: SQL compilation error: error line 8 at position 17
+Bind variable :district not set.
+[ 2024-11-22 22:15:09,911 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:09,935 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:09,977 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Data: Error executing query | Details: 002049 (42601): 01b88b8d-0000-ce38-0008-4ae6000226ae: SQL compilation error: error line 8 at position 17
+Bind variable :district not set.
+[ 2024-11-22 22:15:14,664 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:14,666 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:14,666 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:15,582 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:15,650 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:15,650 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:15:15,650 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:15,674 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:15,727 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:15,728 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:15,728 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:16,469 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:16,569 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:16,570 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:15:16,570 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:16,590 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:16,642 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:16,642 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:16,643 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:17,375 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:17,459 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:17,460 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:15:17,460 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:17,535 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:17,621 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:17,622 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:17,622 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:18,554 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:18,628 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:15:18,628 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:15:18,628 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:18,652 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:18,708 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:15:18,713 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:18,714 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:18,714 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:19,365 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:19,428 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:15:19,429 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:15:19,429 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:19,450 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:19,516 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:15:19,519 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:19,519 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:19,519 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:20,335 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:20,415 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:15:20,416 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:15:20,416 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:20,496 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:20,583 ] 100 root - INFO - Executing query for Bidar
+[ 2024-11-22 22:15:20,583 ] 106 root - INFO - Query Parameters: {'district': 'Bidar'}
+[ 2024-11-22 22:15:20,585 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:15:20,586 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:15:20,586 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:15:21,368 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:15:21,417 ] 68 utils.database - ERROR - Error executing query: 002049 (42601): 01b88b8d-0000-cdc2-0008-4ae600021a6a: SQL compilation error: error line 8 at position 17
+Bind variable :district not set.
+[ 2024-11-22 22:15:21,418 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:15:21,440 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:15:21,492 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Data: Error executing query | Details: 002049 (42601): 01b88b8d-0000-cdc2-0008-4ae600021a6a: SQL compilation error: error line 8 at position 17
+Bind variable :district not set.
+[ 2024-11-22 22:22:30,318 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-22 22:22:30,323 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS', 'FETCH_PENDING_APPLICATIONS', 'UPDATE_USER_STATUS', 'UPDATE_PMAY_DATA', 'UPDATE_USER_OFFICER_ID', 'FETCH_PROGRESS_NOT_STARTED', 'UPDATE_PMARY_PROGRESS_FOUNDATION', 'UPDATE_PMARY_PROGRESS_LINTEL', 'UPDATE_PMARY_PROGRESS_ROOF', 'UPDATE_PMARY_PROGRESS_COMPLETED', 'UPDATE_USER_FOUNDATION_URL', 'UPDATE_USER_LINTEL_URL', 'UPDATE_USER_ROOF_URL', 'UPDATE_USER_COMPLETED_URL', 'UPDATE_USER_SANITATION_URL', 'FETCH_USERS_WITH_COMPLETEDVERF', 'FETCH_TOTAL_BENEFICIARIES', 'FETCH_COMPLETED_HOMES', 'FETCH_UNSTARTED_PROJECTS', 'FETCH_STAGE_PROGRESS', 'FETCH_PERFORMANCE_RANKING', 'FETCH_DISTRICT_STAGE_PROGRESS', 'FETCH_DISTRICT_DATA', 'FETCH_DISTINCT_DISTRICTS']
+[ 2024-11-22 22:22:30,337 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:22:30,338 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:22:30,338 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:22:30,942 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:22:31,020 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:22:31,021 ] 61 utils.database - INFO - Query executed successfully: [(349164,)]
+[ 2024-11-22 22:22:31,021 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:22:31,044 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:22:31,105 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:22:31,105 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:22:31,105 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:22:31,448 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:22:31,506 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:22:31,508 ] 61 utils.database - INFO - Query executed successfully: [(36475,)]
+[ 2024-11-22 22:22:31,508 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:22:31,522 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:22:31,587 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:22:31,587 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:22:31,587 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:22:32,018 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:22:32,083 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:22:32,083 ] 61 utils.database - INFO - Query executed successfully: [(226446,)]
+[ 2024-11-22 22:22:32,083 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:22:32,102 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:22:32,170 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:22:32,170 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:22:32,170 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:22:32,782 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:22:32,861 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-22 22:22:32,861 ] 61 utils.database - INFO - Query executed successfully: [(59492, 5559, 21192)]
+[ 2024-11-22 22:22:32,861 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:22:32,893 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:22:32,971 ] 51 root - INFO - Overview metrics loaded successfully.
+[ 2024-11-22 22:22:32,972 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:22:32,973 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:22:32,973 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:22:33,544 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:22:33,706 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:22:33,707 ] 61 utils.database - INFO - Query executed successfully: [('Yadgiri', Decimal('58.578100')), ('Chamarajanagar', Decimal('47.272700')), ('Kolar', Decimal('46.924500')), ('Chikkaballapur', Decimal('38.203100')), ('Davanagere', Decimal('25.705300')), ('Bengaluru_Rural', Decimal('23.622000')), ('Raichur', Decimal('23.524600')), ('Vijayapura', Decimal('21.766400')), ('Ramanagara', Decimal('21.735300')), ('Gadag', Decimal('20.454500')), ('Tumakuru', Decimal('20.101900')), ('Ballari', Decimal('19.868800')), ('Kalaburagi', Decimal('18.483900')), ('Mandya', Decimal('16.073100')), ('Haveri', Decimal('15.447300')), ('Bidar', Decimal('11.416800')), ('Bagalkot', Decimal('11.082500')), ('Koppal', Decimal('10.816900')), ('Mysuru', Decimal('10.402700')), ('Chikkamagaluru', Decimal('10.122200')), ('Belagavi', Decimal('9.367700')), ('UttaraKannada', Decimal('8.454800')), ('Shivamogga', Decimal('6.467800')), ('Chitradurga', Decimal('4.547900')), ('Bengaluru_Urban', Decimal('4.098800')), ('Udupi', Decimal('3.478300')), ('Dharwad', Decimal('2.181700')), ('Hassan', Decimal('1.921200')), ('DakshinaKannada', Decimal('1.121200')), ('Kodagu', Decimal('0.000000')), ('Vijayanagara', Decimal('0.000000'))]
+[ 2024-11-22 22:22:33,707 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:22:33,753 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:22:33,791 ] 76 root - INFO - Performance ranking loaded successfully.
+[ 2024-11-22 22:22:33,794 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-22 22:22:33,794 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-22 22:22:33,794 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-22 22:22:34,809 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-22 22:22:34,889 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 31
+[ 2024-11-22 22:22:34,889 ] 61 utils.database - INFO - Query executed successfully: [('Bagalkot',), ('Ballari',), ('Belagavi',), ('Bengaluru_Rural',), ('Bengaluru_Urban',), ('Bidar',), ('Chamarajanagar',), ('Chikkaballapur',), ('Chikkamagaluru',), ('Chitradurga',), ('DakshinaKannada',), ('Dharwad',), ('Hassan',), ('Kalaburagi',), ('Kodagu',), ('Kolar',), ('Mandya',), ('Mysuru',), ('Raichur',), ('Ramanagara',), ('Tumakuru',), ('Yadgiri',), ('Koppal',), ('Shivamogga',), ('UttaraKannada',), ('Vijayanagara',), ('Vijayapura',), ('Gadag',), ('Haveri',), ('Udupi',), ('Davanagere',)]
+[ 2024-11-22 22:22:34,890 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-22 22:22:34,913 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-22 22:22:34,973 ] 100 root - INFO - Executing query for Bagalkot
+[ 2024-11-22 22:22:34,974 ] 27 root - ERROR - Custom Exception in Home Module: Error loading District Data: name 'QUERIES' is not defined

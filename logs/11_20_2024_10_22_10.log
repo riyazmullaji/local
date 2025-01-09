@@ -1,0 +1,12 @@
+[ 2024-11-20 10:22:10,641 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 10:22:10,643 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS']
+[ 2024-11-20 10:22:31,791 ] 36 modules.user - INFO - Attempting to register new user with ID 45127da7-3e5e-4ba1-bf26-89b466f2f627, Name: Riyaz Mullaji, Aadhaar: 123456, Income: 50000, District: BENGALURU_URBAN
+[ 2024-11-20 10:22:31,795 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 10:22:31,796 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 10:22:31,796 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 10:22:34,055 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 10:22:35,497 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-20 10:22:35,498 ] 65 utils.database - INFO - Query executed successfully (INSERT/UPDATE/DELETE).
+[ 2024-11-20 10:22:35,498 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 10:22:35,532 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-20 10:22:35,570 ] 42 modules.user - INFO - User registered successfully with ID: 45127da7-3e5e-4ba1-bf26-89b466f2f627

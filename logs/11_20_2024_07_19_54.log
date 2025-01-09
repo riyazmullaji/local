@@ -1,0 +1,6 @@
+[ 2024-11-20 07:19:54,579 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 07:19:55,098 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-20 07:19:55,098 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-20 07:19:56,256 ] 22 utils.database - INFO - Queries loaded successfully.
+[ 2024-11-20 07:19:56,256 ] 68 utils.database - ERROR - Error executing query: Query 'FETCH_USERID_QUERY' not found in loaded queries.
+[ 2024-11-20 07:19:56,258 ] 68 utils.database - ERROR - Error executing query: Query 'UPDATE_USER_PROJECT_PROGRESS' not found in loaded queries.

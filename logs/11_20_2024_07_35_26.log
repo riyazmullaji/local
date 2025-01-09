@@ -1,0 +1,20 @@
+[ 2024-11-20 07:35:26,367 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 07:35:26,688 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-20 07:35:26,688 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-20 07:35:27,377 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS']
+[ 2024-11-20 07:35:27,377 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 07:35:27,384 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 07:35:27,384 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 07:35:28,565 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 07:35:29,274 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-20 07:35:29,279 ] 61 utils.database - INFO - Query executed successfully: [('cc8ae49b-d8e3-4875-8050-dbc697cc298b', 'Riyaz Mullaji', 'District 1', '1234567895', Decimal('5000000.00'))]
+[ 2024-11-20 07:35:29,280 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 07:35:29,298 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-11-20 07:35:29,550 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 07:35:29,551 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 07:35:29,551 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 07:35:29,868 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 07:35:30,443 ] 1166 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-11-20 07:35:30,443 ] 65 utils.database - INFO - Query executed successfully (INSERT/UPDATE/DELETE).
+[ 2024-11-20 07:35:30,443 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 07:35:30,459 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session

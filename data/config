@@ -1,0 +1,9 @@
+# Snowflake credentials configuration
+SNOWFLAKE_CONFIG = {
+    'user': 'riyazmullaji',
+    'password': 'HelloWorld@1902',
+    'account': 'oa32825.ap-south-1',
+    'warehouse': 'SF_HACKATHON',
+    'database': 'PMAY_DB',
+    'schema': 'HOUSING'
+}

@@ -1,0 +1,10 @@
+logging
+sys
+snowflake-connector-python 
+pandas 
+streamlit
+pyarrow
+boto3
+uuid
+python-dotenv
+matplotlib

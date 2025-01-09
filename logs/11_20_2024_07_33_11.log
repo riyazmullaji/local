@@ -1,0 +1,11 @@
+[ 2024-11-20 07:33:11,236 ] 21 logger - INFO - Logger is working correctly!
+[ 2024-11-20 07:33:11,559 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2024-11-20 07:33:11,559 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-11-20 07:33:12,242 ] 22 utils.database - INFO - Queries loaded successfully: ['INSERT_USER_APPLICATION', 'FETCH_USERID_QUERY', 'UPDATE_USER_PROJECT_PROGRESS']
+[ 2024-11-20 07:33:12,244 ] 414 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.12.3, Python Version: 3.11.5, Platform: Windows-10-10.0.22631-SP0
+[ 2024-11-20 07:33:12,245 ] 1197 snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+[ 2024-11-20 07:33:12,245 ] 1278 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-11-20 07:33:13,493 ] 42 utils.database - INFO - Connection to Snowflake established successfully.
+[ 2024-11-20 07:33:13,493 ] 68 utils.database - ERROR - Error executing query: not all arguments converted during string formatting
+[ 2024-11-20 07:33:13,493 ] 789 snowflake.connector.connection - INFO - closed
+[ 2024-11-20 07:33:13,738 ] 795 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
